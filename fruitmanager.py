@@ -19,7 +19,10 @@ class FruitManager:
     def trackFruit(cls, fruit: "Fruit"):
         cls._trackedFruit.append(fruit)
         print(f"Let's say more work is done on fruit {fruit.get_name()}")
-        Fruit.sayILoveFruit()
+        # Fruit.sayILoveFruit()
+
+        Fruit("Orange")
+        print("All fruit are better with an orange")
 
     @classmethod
     def doSomethingOnTrackedFruit(cls):
