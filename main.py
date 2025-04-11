@@ -1,5 +1,5 @@
-from .fruit import Fruit
-from .fruitmanager import FruitManager
+from fruit import Fruit
+from fruitmanager import FruitManager
 
 
 FruitManager.init()
