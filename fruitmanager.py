@@ -17,6 +17,7 @@ class FruitManager:
     def trackFruit(cls, fruit: "Fruit"):
         cls._trackedFruit.append(fruit)
         print(f"Let's say more work is done on fruit {fruit.get_name()}")
+        Fruit.sayILoveFruit()
 
     @classmethod
     def doSomethingOnTrackedFruit(cls):
