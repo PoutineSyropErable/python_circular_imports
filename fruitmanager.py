@@ -1,6 +1,8 @@
 from typing import TYPE_CHECKING
 from typing import List
 
+from fruit import Fruit
+
 
 if TYPE_CHECKING:
     from .fruit import Fruit
