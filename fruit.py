@@ -8,3 +8,7 @@ class Fruit:
 
     def get_name(self) -> str:
         return self._name
+
+    @classmethod
+    def sayILoveFruit(cls):
+        print("I love fruit")
